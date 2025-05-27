@@ -1,22 +1,32 @@
-🧲 Simple Lead Generation System
-A complete lead generation system with form, backend API, and n8n workflow automation.
+# 🧲 Simple Lead Generation System
 
-🔧 Tech Stack
-Frontend: HTML/CSS/JavaScript
-Backend: Node.js + Express
-Automation: n8n (hosted on n8n.cloud)
-✨ Features
-✅ Simple lead form with validation (Name & Email required)
-✅ Express backend to handle POST form submissions
-✅ Sends form data to n8n via Webhook
-✅ n8n sends email notification with lead info
-✅ (Optional) Can store leads in Google Sheets or Airtable
-🚀 How to Run Locally
-1. Clone the Repo
-git clone https://github.com/Satturevanth/Simple-Lead-Generation-System.git
-cd Simple-Lead-Generation-System
+A complete lead generation system featuring a form, a backend API, and automation using n8n.
 
 ---
+
+## 🔧 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Node.js, Express  
+- **Automation:** n8n (Hosted on [n8n.cloud](https://n8n.cloud))
+
+---
+
+## ✨ Features
+
+- ✅ Clean and responsive lead form with validation (Name & Email required)
+- ✅ Express backend to handle POST form submissions
+- ✅ Sends form data to **n8n Webhook**
+- ✅ n8n workflow sends email notifications with lead information
+- ✅ (Optional) Store leads in **Google Sheets** or **Airtable** for future tracking
+
+---
+
+## 🚀 Getting Started Locally
+
+### 1. Clone the Repository
+git clone https://github.com/Satturevanth/Simple-Lead-Generation-System.git
+cd Simple-Lead-Generation-System
 
 ## ✅ 2. Deploy Frontend (Vercel / Netlify)
 
