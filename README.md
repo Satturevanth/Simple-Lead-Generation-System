@@ -1,70 +1,91 @@
 # 🧲 Simple Lead Generation System
 
-A complete lead generation system with form, backend API, and n8n workflow automation.
+A complete lead generation system featuring a form, a backend API, and automation using n8n.
+
+---
 
 ## 🔧 Tech Stack
-- **Frontend**: HTML/CSS/JavaScript
-- **Backend**: Node.js + Express
-- **Automation**: n8n (hosted on n8n.cloud)
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Node.js, Express  
+- **Automation:** n8n (Hosted on [n8n.cloud](https://n8n.cloud))
 
 ---
 
 ## ✨ Features
-- ✅ Simple lead form with validation (Name & Email required)
+
+- ✅ Clean and responsive lead form with validation (Name & Email required)
 - ✅ Express backend to handle POST form submissions
-- ✅ Sends form data to n8n via Webhook
-- ✅ n8n sends email notification with lead info
-- ✅ (Optional) Can store leads in Google Sheets or Airtable
+- ✅ Sends form data to **n8n Webhook**
+- ✅ n8n workflow sends email notifications with lead information
+- ✅ (Optional) Store leads in **Google Sheets** or **Airtable** for future tracking
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 Getting Started Locally
 
-### 1. Clone the Repo
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Satturevanth/Simple-Lead-Generation-System.git
 cd Simple-Lead-Generation-System
+🌐 Deployment Instructions
+✅ 2. Deploy the Frontend (Vercel / Netlify)
+Option 1: Deploy on Vercel (Recommended)
+Visit vercel.com
 
----
+Click "New Project" and import your GitHub repo
 
-## ✅ 2. Deploy Frontend (Vercel / Netlify)
+Select Simple-Lead-Generation-System
 
-You can deploy in **2 minutes** using Vercel:
+Set Root Directory to frontend
 
-### Deploy via Vercel:
-1. Go to [https://vercel.com](https://vercel.com)
-2. Click **“New Project”** > Import GitHub Repo
-3. Choose `Simple-Lead-Generation-System`
-4. Set **Root Directory** to `frontend`
-5. Click **Deploy**
+Click Deploy
 
-Or let me know — I can give a **step-by-step Netlify guide**.
+ℹ️ Want to use Netlify instead? Let me know, and I’ll provide a step-by-step guide.
 
----
+✅ 3. Deploy the Backend (Render)
+Go to render.com
 
-## ✅ 3. Deploy Backend (Render)
+Click "New Web Service"
 
-1. Go to [https://render.com](https://render.com)
-2. Click **“New Web Service”**
-3. Connect your GitHub
-4. Choose the repo and set:
-   - Root directory: `backend`
-   - Start command: `node server.js`
-   - Environment: `Node`
-5. Deploy
+Connect your GitHub account
 
-Let me know if you want Render setup help.
+Choose the repo and set:
 
----
+Root Directory: backend
 
-## ✅ 4. Submit These Links
+Start Command: node server.js
 
-Once done, prepare to submit:
-- ✅ GitHub Repo: https://github.com/Satturevanth/Simple-Lead-Generation-System
-- 🔗 Frontend Live Link: https://simple-lead-generation-system.vercel.app/
-- 🔗 Backend Live Link: https://simple-lead-generation-system.onrender.com
-- 🔗 n8n Webhook URL: https://satturevanth2121.app.n8n.cloud/workflow/nYvpZmZQTLkQiSzZ
-- 📽️ Video Walkthrough Link: https://drive.google.com/file/d/1-Q2LDFoCS6ZPH9J0jfwkWD_OykJ3XmL_/view?usp=drive_link 
+Environment: Node.js
 
----
+Click Deploy
+
+✅ 4. Final Submission Checklist
+Once your app is live, make sure to submit the following:
+
+🔗 GitHub Repository: Simple-Lead-Generation-System
+
+🔗 Frontend Live URL: Vercel Link
+
+🔗 Backend Live URL: Render Link
+
+🔗 n8n Webhook URL: View Webhook
+
+📽️ Video Walkthrough: Watch on Google Drive
+
+📂 Project Structure
+bash
+Copy
+Edit
+Simple-Lead-Generation-System/
+├── frontend/      # HTML, CSS, JS lead form
+├── backend/       # Node.js + Express server
+└── README.md
+📌 About
+This is a minimal, no-database lead generation solution designed for simplicity, extensibility, and automation. Easily extendable to support storage, CRM integration, and analytics.
+
+🌟 Star the Project
+If you find this project helpful, consider giving it a ⭐ on GitHub!
+
+© 2025 Satturevanth – All rights reserved.
