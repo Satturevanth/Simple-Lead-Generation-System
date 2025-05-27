@@ -65,13 +65,6 @@ Once done, prepare to submit:
 - 🔗 Frontend Live Link: https://simple-lead-generation-system.vercel.app/
 - 🔗 Backend Live Link: https://simple-lead-generation-system.onrender.com
 - 🔗 n8n Webhook URL: https://satturevanth2121.app.n8n.cloud/workflow/nYvpZmZQTLkQiSzZ
-- 📽️ Video Walkthrough Link: 
+- 📽️ Video Walkthrough Link: https://drive.google.com/file/d/1-Q2LDFoCS6ZPH9J0jfwkWD_OykJ3XmL_/view?usp=drive_link 
 
 ---
-
-Would you like help deploying to:
-- 🟩 Vercel (Frontend)?
-- 🟦 Render (Backend)?
-- 🎬 Video walkthrough?
-
-Let me know, and I’ll guide you instantly!
